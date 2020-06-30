@@ -17,7 +17,8 @@ def save_cookies(driver, location):
 
 #Es posible que desees eliminar las coockies antes de volver a guardarlas
 #driver.delete_all_cookies()
-    
+
+#Guardamos las coockies en un archivo txt en la misma ruta donde colocamos el driver de chrome, bajar el driver
 # Path where you want to save/load cookies to/from aka C:\my\fav\directory\cookies.txt
 cookies_location = "C:\driver\cookies.txt"
 
