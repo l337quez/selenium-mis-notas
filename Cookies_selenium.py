@@ -15,6 +15,9 @@ from selenium import webdriver
 def save_cookies(driver, location):
     pickle.dump(driver.get_cookies(), open(location, "wb"))
 
+#Es posible que desees eliminar las coockies antes de volver a guardarlas
+#driver.delete_all_cookies()
+    
 # Path where you want to save/load cookies to/from aka C:\my\fav\directory\cookies.txt
 cookies_location = "C:\driver\cookies.txt"
 
